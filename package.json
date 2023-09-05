@@ -1,0 +1,45 @@
+{
+  "name": "crosstagmsg",
+  "version": "0.1.0",
+  "private": true,
+  "description": "crosstagmsg 前端跨页面通信的几种解决方案",
+  "keywords": [
+    "broadcast channel",
+    "service worker",
+    "local storage",
+    "window.onstorage",
+    "shared worker 定时器轮询(setInterval)",
+    "IndexedDB 定时器轮询(setInterval)",
+    "cookie 定时器轮询(setInterval)",
+    "window.open",
+    "window.postMessage",
+    "websocket"
+  ],
+  "license": "MIT",
+  "author": "h7ml <h7ml@qq.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@umijs/max": "^4.0.79",
+    "antd": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
